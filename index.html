@@ -57,7 +57,12 @@
     <script src="/libs/SimpleLightbox/simple-lightbox.js"></script>
     <script src="/libs/SimpleLightbox/simple-lightbox.jquery.min.js"></script>
     <script src="/libs/SimpleLightbox/simple-lightbox.legacy.min.js"></script>
-    <script>  
+    <script>
+    (function() {
+        var $gallery = new SimpleLightbox('.gallery a', {});
+    })();
+   </script>
+   <!-- <script>  
 	// As A jQuery Plugin -->
 	var gallery = $('.gallery a').simpleLightbox({
 	    'resizeDuration': 200,
@@ -69,7 +74,7 @@
 
 
 	});
-    </script>
+    </script>-->
 	  
   </body>
 </html>
