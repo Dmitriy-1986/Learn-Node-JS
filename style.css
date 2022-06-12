@@ -68,10 +68,24 @@ a {
   color: #abe338;
 }
 
+/* Code */
 code {
   display: block;
   overflow-x: auto;
   padding: 1em;
+  color: #ddd;
+}
+
+.variable {
+  color: #dcc6e0;
+}
+
+.module {
+  color: #f5ab35;
+}
+
+.param {
+  color: #abe338;
 }
 
 footer {
