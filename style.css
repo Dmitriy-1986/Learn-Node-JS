@@ -38,7 +38,8 @@ main {
 }
 
 main p {
-  color: #00e0e0;
+  /*color: #00e0e0;*/
+  color: #fff;
 }
 
 main p::first-letter {
