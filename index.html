@@ -18,18 +18,7 @@
   <main>
     <h2><a href="https://github.com/Dmitriy-1986/Learn-Node-JS/blob/master/index.html">List Learn Node.js</a></h2>
     <ol id="lists"></ol>
-    
-    <p>
-      Среда Node обладает богатой функциональностью, и имеет широкое распространение, начать установку <a href="https://nodejs.org/">Node</a> 
-    </p>
-    <p>
-      Устанавливая Node  для Windows, необходимо подтвердить местонахождение и набор компонентов по умолчанию. Программа установки добавляет каталог Node 
-      в переменную PATH, чтобы команду node можно было вводить без указания полного пути установки Node.
-    </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, et! Dolorem placeat perferendis suscipit quam,
-      aliquam deserunt, culpa itaque nesciunt quod nam nihil reiciendis distinctio laudantium. Dolor non quasi, enim ut,
-      cum in reprehenderit voluptatibus officia blanditiis ad cupiditate modi rem eius tempore consectetur et.
-      Repudiandae ut quaerat delectus nihil!</p>
+    <div id="paragraph"></div>
   </main>
   <footer>
     <span>2022 - Learn Learn Node.js</span>
@@ -43,6 +32,12 @@
       { strLink: '#', strName: 'No name link' },
       { strLink: '#', strName: 'No name link' },
     ];
+    
+    const text = [
+      {txt: 'Среда Node обладает богатой функциональностью, и имеет широкое распространение, начать установку <a href="https://nodejs.org/">Node</a>'},
+      {txt: 'Устанавливая Node  для Windows, необходимо подтвердить местонахождение и набор компонентов по умолчанию. Программа установки добавляет каталог Node в переменную PATH, чтобы команду node можно было вводить без указания полного пути установки Node.'},
+      {txt: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, et! Dolorem placeat perferendis suscipit quam'},
+    ];
 
     for (let i = 0; i < links.length; i++) {
       let lists = document.getElementById('lists');
@@ -53,7 +48,12 @@
           </path>
         </svg></li>
       `;
-    }
+    };
+    
+    for (let p = 0; p < text.length; p++) {
+      let paragraph = document.getElementById('paragraph');
+      paragraph.innerHTML += `<p>${text[p].txt}</p>`;
+    };
   </script>
   
 </body>
