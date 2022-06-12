@@ -68,6 +68,12 @@ a {
   color: #abe338;
 }
 
+code {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
 footer {
   max-width: 1000px;
   margin: 20px auto;
