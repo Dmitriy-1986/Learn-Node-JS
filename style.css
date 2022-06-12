@@ -30,8 +30,6 @@ h2::before {
 main {
   max-width: 1000px;
   min-height: 80vh;
-  border: 1px solid white;
-  border-radius: 5px;
   margin: 20px auto;
   padding: 20px;
   color: #abe338;
