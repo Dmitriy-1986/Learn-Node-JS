@@ -78,18 +78,26 @@ code {
   overflow-x: auto;
   padding: 1em;
   color: #ddd;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 .variable {
   color: #dcc6e0;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 .module {
   color: #f5ab35;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 .param {
   color: #abe338;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 footer {
