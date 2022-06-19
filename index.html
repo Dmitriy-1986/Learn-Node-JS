@@ -87,8 +87,9 @@ buf.<span class="module">fill</span>(<span class="param">0</span>); //Буфер
       {txt: 'Начнем с включения модуля Events:'},
       {txt: `<pre><code><span class="variable">let</span> events = <span class="module">require</span>(<span class="param">'events'</span>);
 <span class="variable">let</span> em = <span class="module">new events.EventEmmiter</span>(); //Экземпляр EventEmmiter</code></pre>`},
-      //{txt: ''},
-      //{txt: ''},
+      {txt: 'Созданный объект EventEmmiter используется для выполнения двух важнейших задач: присоединения обработчика к событию и генерирования самого события. Обработчик события EventEmmiter.on() активизируется при генерировании конкретного события. Первый параметр метода содержит имя собятия; во втором передается функцияобратного вызова для выполнения некоторой функциональности:'},
+      {txt: `<pre><code><span class="variable">let</span> events = <span class="module">require</span>(<span class="param">'events'</span>);
+<span class="variable">let</span> em = <span class="module">new events.EventEmmiter</span>(); //Экземпляр EventEmmiter</code></pre>`},
       //{txt: ''},
       //{txt: ''},
       //{txt: ''},
