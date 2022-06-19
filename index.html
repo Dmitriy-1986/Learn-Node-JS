@@ -85,10 +85,8 @@ buf.<span class="module">fill</span>(<span class="param">0</span>); //Буфер
       {txt: 'Понимание тог, как работает класс EventEmmiter, и умение его использовать - две важнейшие составляющие программирования для Node. '},
       {txt: 'Класс EventEmmiter обеспечивает асинхронную обрабтку событий в Node. Чтобы продемонстрировать его базовую функциональность, напишем короткое тестовое приложение.'},
       {txt: 'Начнем с включения модуля Events:'},
-      {txt: `<pre><code><span class="variable">let</span> events = <span class="module">require(<span class="param">'events'</span>)</span>;
-<span class="variable">let</span> em = <span class="module">new events.EventEmmiter()</span>; 
-      
-buf.<span class="module">fill</span>(<span class="param">0</span>); //Буфер заполняется нулями</code></pre>`},
+      {txt: `<pre><code><span class="variable">let</span> events = <span class="module">require</span>(<span class="param">'events'</span>);
+<span class="variable">let</span> em = <span class="module">new events.EventEmmiter</span>(); //Экземпляр EventEmmiter</code></pre>`},
       //{txt: ''},
       //{txt: ''},
       //{txt: ''},
