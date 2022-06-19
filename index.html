@@ -90,7 +90,10 @@ buf.<span class="module">fill</span>(<span class="param">0</span>); //Буфер
       {txt: 'Созданный объект EventEmmiter используется для выполнения двух важнейших задач: присоединения обработчика к событию и генерирования самого события. Обработчик события EventEmmiter.on() активизируется при генерировании конкретного события. Первый параметр метода содержит имя собятия; во втором передается функцияобратного вызова для выполнения некоторой функциональности:'},
       {txt: `<pre><code>em.<span class="module">on</span>(<span class="param">'someevent', function(data) {...}</span>);</code></pre>`},
       {txt: 'Событие генерируется для объекта методом EventEmitter.emit() при выполнении некоторого условия:'},
-      //{txt: ''},
+      {txt: `<pre><code><span class="module">if</span>(<span class="param">somecriteria</span>){
+   en.<span class="module">emit</span>(<span class="param">'data'</span>);   
+}   
+</code></pre>`},
       //{txt: ''},
       //{txt: ''},
       //{txt: ''},
