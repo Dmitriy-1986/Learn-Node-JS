@@ -100,6 +100,10 @@ code {
   font-size: 18px;
 }
 
+.to-be-continued {
+  color: #ce70ca; 
+}
+
 footer {
   max-width: 1000px;
   margin: 20px auto;
