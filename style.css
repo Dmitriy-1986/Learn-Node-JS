@@ -64,7 +64,7 @@ main ol li:before {
   color: #dcc6e0;
 }
 
-#lists li svg:hover {
+#lists li svg path:hover {
   fill: white;
 }
 
